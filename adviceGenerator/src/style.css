@@ -1,0 +1,87 @@
+:root{
+    --Light_Cyan: hsl(193, 38%, 86%);
+    --Neon_Green: hsl(150, 100%, 66%);
+    --Grayish_Blue: hsl(217, 19%, 38%);
+    --Dark_Gryish_Blue: hsl(217, 19%, 24%);
+    --Dark_Blue: hsl(218, 23%, 16%);
+}
+
+
+body{
+    background-color: var(--Dark_Blue);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 500px;
+    height: 350px;
+    background-color: var(--Dark_Gryish_Blue);
+    border-radius: 5%;
+}
+
+.advice_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--Neon_Green);
+
+}
+
+.advice{
+    color: var(--Light_Cyan);
+    width: 350px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.advice-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.imgContainer{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.dividerMobile{
+    display: none;
+}
+
+.icon{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--Neon_Green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.icon-conatiner{
+    display: flex;
+    justify-content: center;
+}
+
+.icon:hover{
+    box-shadow: 0 0 40px 0 var(--Neon_Green);
+}
