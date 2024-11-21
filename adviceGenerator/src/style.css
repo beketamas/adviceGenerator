@@ -85,3 +85,19 @@ body{
 .icon:hover{
     box-shadow: 0 0 40px 0 var(--Neon_Green);
 }
+
+
+@media(max-width){
+    .dividerMobile{
+        display: block;
+    }
+    .dividerDesktop{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    .card{
+        width: 375px;
+    }
+}
